@@ -1,0 +1,57 @@
+/* === color === */
+:root {
+  /*=== Primary === */
+
+  --pSoftRed: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --darkCyan: hsl(167, 40%, 24%); /*(graphic design text)*/
+  --darkBlue: hsl(198, 62%, 26%); /*(photography text)*/
+  --darkmoderCyan: hsl(168, 34%, 41%); /*(footer)*/
+
+  /* === Neutral === */
+
+  --vdarkdesblue: hsl(212, 27%, 19%);
+  --verydarkgrayishblue: hsl(213, 9%, 39%);
+  --darkgrblue: hsl(232, 10%, 55%);
+  --grayishblue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Layout === */
+
+body {
+  font-size: 18px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+  color: white;
+}
+
+nav {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
