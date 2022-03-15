@@ -27,6 +27,7 @@
 
 body {
   font-size: 18px;
+  color: white;
 }
 
 ul li {
@@ -43,15 +44,26 @@ nav .container {
   justify-content: space-between;
   align-items: center;
   max-width: 1400px;
-  padding: 20px;
+  padding: 50px;
   margin: 0 auto;
-  color: white;
 }
 
-nav {
+header {
   background-image: url(../images/desktop/image-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+  margin-top: 3rem;
+}
+
+.header_text {
+  font-size: 3rem;
 }
